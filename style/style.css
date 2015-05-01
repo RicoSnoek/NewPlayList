@@ -1,0 +1,102 @@
+@import url('http://fonts.googleapis.com/css?family=Droid+Sans');
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	background-image: url('AMV5J4Z.png');
+	background-size: 100%;
+	background-repeat: repeat;
+}
+
+.header {
+	display: block;
+	position: center;
+	margin: 0 auto;
+	width: 60%;
+	margin-top: 150px;
+}
+
+#videoPlayer {
+	width: 100%;
+}
+
+#progressBar {
+	margin: 0 auto;
+	width: 100%;
+	height: 30px;
+	background-color: #eee;
+}
+
+#progress {
+	background-color: #455A64;
+	height: 100%;
+	width: 0%;
+}
+
+.buttonBar {
+	margin: 0 auto;
+}
+
+.buttons {
+	float: left; 
+	margin-top: 5px;
+	display: inline-block;
+	width: 16.66%;
+	height: 47px;
+	background-color: #eee;
+	border: none;
+	border-left: 1px solid #455A64;
+	border-right: 1px solid #455A64;
+}
+
+#videoDiv {
+}
+
+#playlist {
+	position: absolute;
+	display: block;
+	width: 15%;
+	height: 65%;
+	background-color: #455A64;
+	margin-left: 3%;
+	margin-top: 150px;
+	overflow-y: scroll;
+}
+
+.playlistButtons {
+	display: block;
+	width: 96%;
+	height: 32%;
+	background-color: #EEE;
+	border: solid #222 2px;
+	margin-top: 1%;
+	margin-left: 1.2%;
+	line-height: 2.4;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	font-size: 24px;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+.playlistButtons {
+	text-align: center;
+}
+
+:-moz-full-screen video{
+	height: 80%;
+}
+
+:-moz-full-screen .buttonBar,
+:-moz-full-screen #progressBar {
+	width: 80%;
+}
